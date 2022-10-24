@@ -1,5 +1,6 @@
 {
   "name": "first-react-project",
+  "homepage": "https://robots.tomkramer.tech",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
