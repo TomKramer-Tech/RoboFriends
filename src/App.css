@@ -9,6 +9,19 @@
 h1 {
         font-family: 'SEGA LOGO FONT', cursive;
         font-weight: 200;
-        color: #083130;
+        background-image: linear-gradient(to right, rgb(156, 156, 156), rgb(0, 0, 0));
+        background-size: 300%;
+        background-clip: text;
+        color: transparent;
+        animation: h1-animation 10s infinite alternate;
     
 }
+
+@keyframes h1-animation {
+    0% {
+      background-position: left;
+    }
+    100% {
+      background-position: right;
+    }
+  }
